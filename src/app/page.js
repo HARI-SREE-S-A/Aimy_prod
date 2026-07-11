@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import ImageWithFallback from '@/components/ImageWithFallback';
 import { supabase } from '@/lib/supabase';
 import ScrollReveal from '@/components/ScrollReveal';
+import siteSettings from '@/data/siteSettings.json';
 
 // Helper to fetch banners (if Supabase is configured)
 async function getBanners() {
@@ -26,7 +27,7 @@ export default async function Home() {
   const heroData = banners.length > 0 ? banners[0] : {
     title: 'Transform Your Space With Brilliant LED Lighting',
     subtitle: 'Premium quality, energy-efficient lighting solutions manufactured in India.',
-    image_url: '/images/backgrounds/hero-warehouse.jpg',
+    image_url: siteSettings.aboutHeroImage || '/images/backgrounds/hero-warehouse.jpg',
     cta_text: 'Explore Products',
     cta_link: '/products'
   };
@@ -129,9 +130,9 @@ export default async function Home() {
               <ScrollReveal direction="up" delay={0.1}>
                 <Link href="/products#indoor-lighting" className="category-card">
                   <ImageWithFallback 
-                    src="/images/products/downlight-que-es-y-para-que-se-utiliza.png" 
+                    src={siteSettings.indoorLightingCategory || "/images/products/downlight-que-es-y-para-que-se-utiliza.png"}
                     alt="Indoor Lighting" 
-                    fallbackSrc="/images/backgrounds/hero-warehouse.jpg" 
+                    fallbackSrc={siteSettings.aboutHeroImage || "/images/backgrounds/hero-warehouse.jpg"}
                   />
                   <div className="category-card-content">
                     <h3 className="category-card-title">Indoor Lighting</h3>
@@ -143,9 +144,9 @@ export default async function Home() {
               <ScrollReveal direction="up" delay={0.2}>
                 <Link href="/products#outdoor-lighting" className="category-card">
                   <ImageWithFallback 
-                    src="/images/products/zeus-series-flood-100w.png" 
+                    src={siteSettings.outdoorLightingCategory || "/images/products/zeus-series-flood-100w.png"}
                     alt="Outdoor Lighting" 
-                    fallbackSrc="/images/backgrounds/hero-warehouse.jpg" 
+                    fallbackSrc={siteSettings.aboutHeroImage || "/images/backgrounds/hero-warehouse.jpg"}
                   />
                   <div className="category-card-content">
                     <h3 className="category-card-title">Outdoor Lighting</h3>
@@ -157,9 +158,9 @@ export default async function Home() {
               <ScrollReveal direction="up" delay={0.3}>
                 <Link href="/products#decorative-lighting" className="category-card">
                   <ImageWithFallback 
-                    src="/images/products/led-strip-light.jpg" 
+                    src={siteSettings.decorativeLightingCategory || "/images/products/led-strip-light.jpg"}
                     alt="Decorative Lighting" 
-                    fallbackSrc="/images/backgrounds/hero-warehouse.jpg" 
+                    fallbackSrc={siteSettings.aboutHeroImage || "/images/backgrounds/hero-warehouse.jpg"}
                   />
                   <div className="category-card-content">
                     <h3 className="category-card-title">Decorative Lighting</h3>

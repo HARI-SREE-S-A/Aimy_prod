@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import siteSettings from '@/data/siteSettings.json';
 
 export const metadata = {
   title: 'About Us | Aimy India',
@@ -37,7 +38,7 @@ export default function Page() {
                 </p>
               </div>
               <div style={{ position: 'relative', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}>
-                <img src="/images/backgrounds/hero-warehouse.jpg" alt="Aimy India Manufacturing" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                <img src={siteSettings.aboutHeroImage || "/images/backgrounds/hero-warehouse.jpg"} alt="Aimy India Manufacturing" style={{ width: '100%', height: 'auto', display: 'block' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(45deg, rgba(227,30,36,0.2), transparent)' }}></div>
               </div>
             </div>

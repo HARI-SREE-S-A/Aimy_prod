@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import siteSettings from '@/data/siteSettings.json';
 
 const navItems = [
   { label: 'Home', href: '/' },
@@ -48,7 +49,7 @@ export default function Header() {
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="header-inner">
           <Link href="/" className="header-logo">
-            <img src="/images/brand/logo.png" alt="Aimy India" />
+            <img src={siteSettings.headerLogo || "/images/brand/logo.png"} alt="Aimy India" />
           </Link>
 
           <nav className="nav">

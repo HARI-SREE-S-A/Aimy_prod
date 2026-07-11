@@ -100,8 +100,94 @@ export default function PagesManager() {
           {selectedPage ? (
             <div>
               <h2 style={{ marginTop: 0, marginBottom: '5px' }}>Editing: {pages[selectedPage].title}</h2>
-              <p style={{ fontSize: '0.8rem', color: '#888', marginBottom: '20px' }}>You can use HTML tags here (e.g., &lt;p&gt;, &lt;strong&gt;, &lt;br&gt;).</p>
+              <p style={{ fontSize: '0.8rem', color: '#888', marginBottom: '15px' }}>Highlight text and click a button to format, or type HTML directly.</p>
+              
+              {/* Formatting Toolbar */}
+              <div style={{ display: 'flex', gap: '5px', marginBottom: '10px', background: '#222', padding: '10px', borderRadius: '5px' }}>
+                <button 
+                  onClick={() => {
+                    const ta = document.getElementById('page-editor');
+                    if (!ta) return;
+                    const start = ta.selectionStart;
+                    const end = ta.selectionEnd;
+                    const text = ta.value;
+                    const selectedText = text.substring(start, end);
+                    const newText = text.substring(0, start) + `<strong>${selectedText || 'bold text'}</strong>` + text.substring(end);
+                    handleContentChange(selectedPage, newText);
+                  }}
+                  style={{ padding: '5px 10px', background: '#333', color: '#fff', border: '1px solid #444', borderRadius: '3px', cursor: 'pointer', fontWeight: 'bold' }}
+                >B</button>
+                <button 
+                  onClick={() => {
+                    const ta = document.getElementById('page-editor');
+                    if (!ta) return;
+                    const start = ta.selectionStart;
+                    const end = ta.selectionEnd;
+                    const text = ta.value;
+                    const selectedText = text.substring(start, end);
+                    const newText = text.substring(0, start) + `<em>${selectedText || 'italic text'}</em>` + text.substring(end);
+                    handleContentChange(selectedPage, newText);
+                  }}
+                  style={{ padding: '5px 10px', background: '#333', color: '#fff', border: '1px solid #444', borderRadius: '3px', cursor: 'pointer', fontStyle: 'italic' }}
+                >I</button>
+                <button 
+                  onClick={() => {
+                    const ta = document.getElementById('page-editor');
+                    if (!ta) return;
+                    const start = ta.selectionStart;
+                    const end = ta.selectionEnd;
+                    const text = ta.value;
+                    const selectedText = text.substring(start, end);
+                    const newText = text.substring(0, start) + `<h2>${selectedText || 'Heading'}</h2>` + text.substring(end);
+                    handleContentChange(selectedPage, newText);
+                  }}
+                  style={{ padding: '5px 10px', background: '#333', color: '#fff', border: '1px solid #444', borderRadius: '3px', cursor: 'pointer' }}
+                >H2</button>
+                <button 
+                  onClick={() => {
+                    const ta = document.getElementById('page-editor');
+                    if (!ta) return;
+                    const start = ta.selectionStart;
+                    const end = ta.selectionEnd;
+                    const text = ta.value;
+                    const selectedText = text.substring(start, end);
+                    const url = prompt('Enter URL:', 'https://');
+                    if(url) {
+                      const newText = text.substring(0, start) + `<a href="${url}">${selectedText || 'Link text'}</a>` + text.substring(end);
+                      handleContentChange(selectedPage, newText);
+                    }
+                  }}
+                  style={{ padding: '5px 10px', background: '#333', color: '#fff', border: '1px solid #444', borderRadius: '3px', cursor: 'pointer', textDecoration: 'underline' }}
+                >Link</button>
+                <button 
+                  onClick={() => {
+                    const ta = document.getElementById('page-editor');
+                    if (!ta) return;
+                    const start = ta.selectionStart;
+                    const end = ta.selectionEnd;
+                    const text = ta.value;
+                    const selectedText = text.substring(start, end);
+                    const newText = text.substring(0, start) + `<ul>\n  <li>${selectedText || 'List item'}</li>\n</ul>` + text.substring(end);
+                    handleContentChange(selectedPage, newText);
+                  }}
+                  style={{ padding: '5px 10px', background: '#333', color: '#fff', border: '1px solid #444', borderRadius: '3px', cursor: 'pointer' }}
+                >List</button>
+                <button 
+                  onClick={() => {
+                    const ta = document.getElementById('page-editor');
+                    if (!ta) return;
+                    const start = ta.selectionStart;
+                    const end = ta.selectionEnd;
+                    const text = ta.value;
+                    const newText = text.substring(0, start) + `<br/>` + text.substring(end);
+                    handleContentChange(selectedPage, newText);
+                  }}
+                  style={{ padding: '5px 10px', background: '#333', color: '#fff', border: '1px solid #444', borderRadius: '3px', cursor: 'pointer' }}
+                >Break</button>
+              </div>
+
               <textarea
+                id="page-editor"
                 value={pages[selectedPage].content}
                 onChange={(e) => handleContentChange(selectedPage, e.target.value)}
                 style={{

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import siteSettings from '@/data/siteSettings.json';
 
 export default function Footer() {
   return (
@@ -8,14 +9,14 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Brand */}
           <div className="footer-brand">
-            <img src="/images/brand/logo.png" alt="Aimy India" style={{ height: 50, width: 'auto' }} />
+            <img src={siteSettings.footerLogo || "/images/brand/logo.png"} alt="Aimy India" style={{ height: 50, width: 'auto' }} />
             <p>
               Aimy India is a leading manufacturer of energy-efficient LED lighting solutions.
               We are committed to providing high-quality, innovative, and sustainable lighting
               products that are proudly Made in India.
             </p>
             <div className="footer-badge">
-              <img src="/images/brand/make-india-logo.png" alt="Made in India" />
+              <img src={siteSettings.makeInIndiaLogo || "/images/brand/make-india-logo.png"} alt="Made in India" />
               <span>Made in India</span>
             </div>
           </div>
