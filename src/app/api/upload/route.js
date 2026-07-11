@@ -3,7 +3,12 @@ import fs from 'fs/promises';
 import path from 'path';
 import { commitToGitHub } from '@/lib/github';
 
-const UPLOAD_DIR = path.join(process.cwd(), 'public', 'uploads');
+// On Vercel, the filesystem is read-only except for /tmp.
+// We write to /tmp locally just so the API succeeds, but the real persistence
+// happens via the GitHub commit which triggers a Vercel rebuild.
+const UPLOAD_DIR = process.env.VERCEL 
+  ? '/tmp/uploads'
+  : path.join(process.cwd(), 'public', 'uploads');
 
 const isAuthenticated = (request) => {
   const token = request.cookies.get('admin_token')?.value;
