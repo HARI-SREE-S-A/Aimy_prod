@@ -1,16 +1,18 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import downloads from '@/data/downloads.json';
-
+import { getCollectionData } from '@/lib/data';
 export const metadata = {
   title: 'Downloads | Aimy India',
   description: 'Download Aimy India product catalogs, price lists, and brochures.',
 };
 
-export default function DownloadsPage() {
+export default async function DownloadsPage() {
+  const downloads = await getCollectionData('downloads', []);
+  const siteSettings = await getCollectionData('siteSettings');
+
   return (
     <>
-      <Header />
+      <Header siteSettings={siteSettings} />
       
       <main>
         <section className="page-header">
@@ -66,7 +68,7 @@ export default function DownloadsPage() {
         </section>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} />
     </>
   );
 }

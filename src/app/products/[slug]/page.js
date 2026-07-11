@@ -3,10 +3,12 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ProductSpecTable from '@/components/ProductSpecTable';
 import ImageWithFallback from '@/components/ImageWithFallback';
-import products from '@/data/products.json';
+import { getCollectionData } from '@/lib/data';
 
+export const dynamic = 'force-dynamic';
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+  const products = await getCollectionData('products', []);
   const product = products.find(p => p.slug === slug);
   
   if (!product) {
@@ -19,15 +21,10 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// Generate static params for all products since they come from a static JSON file
-export function generateStaticParams() {
-  return products.map((product) => ({
-    slug: product.slug,
-  }));
-}
-
 export default async function ProductDetailPage({ params }) {
   const { slug } = await params;
+  const products = await getCollectionData('products', []);
+  const siteSettings = await getCollectionData('siteSettings');
   const product = products.find(p => p.slug === slug);
   
   if (!product) {
@@ -50,7 +47,7 @@ export default async function ProductDetailPage({ params }) {
 
   return (
     <>
-      <Header />
+      <Header siteSettings={siteSettings} />
       
       <main>
         <section className="page-header" style={{ paddingBottom: '3rem' }}>
@@ -149,7 +146,7 @@ export default async function ProductDetailPage({ params }) {
         </section>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} />
     </>
   );
 }

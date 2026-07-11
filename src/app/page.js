@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import ImageWithFallback from '@/components/ImageWithFallback';
 import { supabase } from '@/lib/supabase';
 import ScrollReveal from '@/components/ScrollReveal';
-import siteSettings from '@/data/siteSettings.json';
+import { getCollectionData } from '@/lib/data';
 
 // Helper to fetch banners (if Supabase is configured)
 async function getBanners() {
@@ -22,6 +22,7 @@ async function getBanners() {
 
 export default async function Home() {
   const banners = await getBanners();
+  const siteSettings = await getCollectionData('siteSettings');
   
   // Fallback hero if no banners
   const heroData = banners.length > 0 ? banners[0] : {
@@ -34,7 +35,7 @@ export default async function Home() {
 
   return (
     <>
-      <Header />
+      <Header siteSettings={siteSettings} />
       
       <main>
         {/* HERO SECTION */}
@@ -193,7 +194,7 @@ export default async function Home() {
         </section>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} />
     </>
   );
 }

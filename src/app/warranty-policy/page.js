@@ -1,18 +1,19 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import pagesData from '@/data/pages.json';
-
+import { getCollectionData } from '@/lib/data';
 export const metadata = {
   title: 'Warranty Policy | Aimy India',
   description: 'Information about our product warranties and guarantees.',
 };
 
-export default function Page() {
+export default async function Page() {
+  const pagesData = await getCollectionData('pages');
+  const siteSettings = await getCollectionData('siteSettings');
   const pageContent = pagesData['warranty-policy']?.content || '<p>Detailed content for this section will be updated by the site administrator.</p>';
 
   return (
     <>
-      <Header />
+      <Header siteSettings={siteSettings} />
       <main>
         <section className="page-header">
           <div className="container">
@@ -34,7 +35,7 @@ export default function Page() {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer siteSettings={siteSettings} />
     </>
   );
 }

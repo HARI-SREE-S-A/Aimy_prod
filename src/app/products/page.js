@@ -2,8 +2,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ImageWithFallback from '@/components/ImageWithFallback';
-import categories from '@/data/categories.json';
-import products from '@/data/products.json';
+import { getCollectionData } from '@/lib/data';
 
 // Map product slugs to actual image filenames that exist in public/images/products/
 // Products not in this map will try slug.jpg -> slug.png -> fallback
@@ -49,7 +48,15 @@ export const metadata = {
   description: 'Explore our complete range of premium indoor, outdoor, and decorative LED lighting solutions.',
 };
 
-export default function ProductsPage() {
+export default async function ProductsPage() {
+  const siteSettings = await getCollectionData('siteSettings');
+  let categories = await getCollectionData('categories', []);
+  let products = await getCollectionData('products', []);
+
+  // Ensure data arrays exist
+  if (!Array.isArray(categories)) categories = [];
+  if (!Array.isArray(products)) products = [];
+
   // Group products by category
   const groupedProducts = categories.map(cat => ({
     ...cat,
@@ -58,7 +65,7 @@ export default function ProductsPage() {
 
   return (
     <>
-      <Header />
+      <Header siteSettings={siteSettings} />
       
       <main>
         <section className="page-header">
@@ -144,7 +151,7 @@ export default function ProductsPage() {
         </div>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} />
     </>
   );
 }

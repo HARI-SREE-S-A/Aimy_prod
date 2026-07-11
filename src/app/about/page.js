@@ -1,16 +1,17 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import siteSettings from '@/data/siteSettings.json';
-
+import { getCollectionData } from '@/lib/data';
 export const metadata = {
   title: 'About Us | Aimy India',
   description: 'Learn more about Aimy India, our mission, and our vision for the future of lighting.',
 };
 
-export default function Page() {
+export default async function Page() {
+  const siteSettings = await getCollectionData('siteSettings');
+
   return (
     <>
-      <Header />
+      <Header siteSettings={siteSettings} />
       <main>
         <section className="page-header">
           <div className="container">
@@ -79,7 +80,7 @@ export default function Page() {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer siteSettings={siteSettings} />
     </>
   );
 }

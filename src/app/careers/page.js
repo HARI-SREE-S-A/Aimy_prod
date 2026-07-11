@@ -1,27 +1,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { supabase } from '@/lib/supabase';
-
+import { getCollectionData } from '@/lib/data';
 export const metadata = {
   title: 'Careers | Aimy India',
   description: 'Join the Aimy India team and help us build the future of LED lighting solutions.',
 };
 
-async function getCareers() {
-  try {
-    const { data } = await supabase
-      .from('careers')
-      .select('*')
-      .eq('is_active', true)
-      .order('created_at', { ascending: false });
-    return data || [];
-  } catch (error) {
-    return [];
-  }
-}
-
 export default async function CareersPage() {
-  const careers = await getCareers();
+  const careers = await getCollectionData('careers', []);
+  const siteSettings = await getCollectionData('siteSettings');
   
   // Fallback data if DB is empty or not connected
   const jobs = careers.length > 0 ? careers : [
@@ -53,7 +40,7 @@ export default async function CareersPage() {
 
   return (
     <>
-      <Header />
+      <Header siteSettings={siteSettings} />
       
       <main>
         <section className="page-header">
@@ -118,7 +105,7 @@ export default async function CareersPage() {
         </section>
       </main>
 
-      <Footer />
+      <Footer siteSettings={siteSettings} />
     </>
   );
 }

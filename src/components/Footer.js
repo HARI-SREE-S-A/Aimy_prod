@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import siteSettings from '@/data/siteSettings.json';
 
-export default function Footer() {
+export default function Footer({ siteSettings = {} }) {
   return (
     <footer className="footer">
       <div className="footer-bg" style={{ backgroundImage: 'url(/images/backgrounds/footer-bg.jpg)' }} />
