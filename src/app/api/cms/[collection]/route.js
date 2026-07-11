@@ -1,9 +1,5 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs/promises';
-import path from 'path';
-import { commitToGitHub } from '@/lib/github';
-
-const dataDir = path.join(process.cwd(), 'src', 'data');
+import clientPromise from '@/lib/mongodb';
 
 const isAuthenticated = (request) => {
   const token = request.cookies.get('admin_token')?.value;
@@ -14,15 +10,23 @@ export async function GET(request, { params }) {
   const { collection } = await params;
   
   try {
-    const filePath = path.join(dataDir, `${collection}.json`);
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    const data = JSON.parse(fileContents);
-    return NextResponse.json(data);
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      return NextResponse.json({ error: 'Collection not found' }, { status: 404 });
+    const client = await clientPromise;
+    const db = client.db('aimy_db');
+    
+    // We treat the MongoDB collection 'cms_data' as our generic store.
+    // Each document has _id = collection_name (e.g., 'products', 'pages').
+    const doc = await db.collection('cms_data').findOne({ _id: collection });
+    
+    if (doc && doc.data) {
+      return NextResponse.json(doc.data);
+    } else {
+      // Return empty structure based on collection type if not found.
+      const fallback = (collection === 'pages' || collection === 'siteSettings' || collection === 'gallery') ? {} : [];
+      return NextResponse.json(fallback);
     }
-    return NextResponse.json({ error: 'Failed to read data' }, { status: 500 });
+  } catch (error) {
+    console.error('MongoDB GET Error:', error);
+    return NextResponse.json({ error: 'Failed to read data from database' }, { status: 500 });
   }
 }
 
@@ -35,16 +39,19 @@ export async function POST(request, { params }) {
   
   try {
     const newData = await request.json();
-    const filePath = path.join(dataDir, `${collection}.json`);
-    const jsonString = JSON.stringify(newData, null, 2);
+    const client = await clientPromise;
+    const db = client.db('aimy_db');
     
-    await fs.writeFile(filePath, jsonString, 'utf8');
+    // Upsert the entire JSON block into the document.
+    await db.collection('cms_data').updateOne(
+      { _id: collection },
+      { $set: { data: newData, updatedAt: new Date() } },
+      { upsert: true }
+    );
     
-    await commitToGitHub(`src/data/${collection}.json`, jsonString, `CMS Update: Modified ${collection}.json`, false);
-    
-    return NextResponse.json({ success: true, message: 'Data updated successfully' });
+    return NextResponse.json({ success: true, message: 'Data saved to MongoDB successfully' });
   } catch (error) {
-    console.error('Error saving data:', error);
-    return NextResponse.json({ error: 'Failed to save data' }, { status: 500 });
+    console.error('MongoDB POST Error:', error);
+    return NextResponse.json({ error: 'Failed to save data to database' }, { status: 500 });
   }
 }
