@@ -1,0 +1,22 @@
+[
+  {
+    "name": "AIMY Galaxy Price List",
+    "file": "/downloads/AIMY-GALAXY-PRICE-LIST-SEP-2022.pdf",
+    "category": "Price List"
+  },
+  {
+    "name": "AIMY Universe Price List",
+    "file": "/downloads/AIMY-UNIVERSE-PRICE-LIST-SEP-2022.pdf",
+    "category": "Price List"
+  },
+  {
+    "name": "MIRVUE Brochure",
+    "file": "/downloads/MIRVUE-BROCHURE.pdf",
+    "category": "Brochure"
+  },
+  {
+    "name": "AIMY Brochure",
+    "file": "/downloads/AIMY-BROCHURE-OLD.pdf",
+    "category": "Brochure"
+  }
+]

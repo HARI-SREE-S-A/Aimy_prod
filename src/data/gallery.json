@@ -1,0 +1,61 @@
+{
+  "photos": [
+    {
+      "category": "Celebrations",
+      "slug": "celebrations",
+      "images": [
+        "onam-celebration"
+      ]
+    },
+    {
+      "category": "Events",
+      "slug": "events",
+      "images": [
+        "events-photos"
+      ]
+    },
+    {
+      "category": "Exhibitions",
+      "slug": "exhibitions",
+      "images": [
+        "exhibition"
+      ]
+    },
+    {
+      "category": "Projects",
+      "slug": "projects",
+      "images": [
+        "projects-photos"
+      ]
+    },
+    {
+      "category": "Promotions",
+      "slug": "promotions",
+      "images": [
+        "promotions-photos"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "category": "Celebrations",
+      "slug": "celebration-videos"
+    },
+    {
+      "category": "Events",
+      "slug": "events-videos"
+    },
+    {
+      "category": "Exhibitions",
+      "slug": "exhibitions-videos"
+    },
+    {
+      "category": "Projects",
+      "slug": "project-videos"
+    },
+    {
+      "category": "Promotions",
+      "slug": "promotion-videos"
+    }
+  ]
+}

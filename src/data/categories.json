@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Indoor Lighting",
+    "slug": "indoor-lighting",
+    "description": "Premium indoor fixtures for homes and offices."
+  },
+  {
+    "name": "Outdoor Lighting",
+    "slug": "outdoor-lighting",
+    "description": "Durable and weather-proof outdoor solutions."
+  },
+  {
+    "name": "Decorative & Landscape",
+    "slug": "decorative-lighting",
+    "description": "Elegant accents for gardens, gates, and walls."
+  },
+  {
+    "name": "Essentials",
+    "slug": "essentials",
+    "description": "Everyday lighting solutions."
+  }
+]

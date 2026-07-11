@@ -1,0 +1,1857 @@
+[
+  {
+    "id": "1783776024159",
+    "slug": "new-product",
+    "name": "Test product",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "/uploads/products/Screenshot-2025-11-22-184159-1783776373442.png",
+    "gallery": [],
+    "models": []
+  },
+  {
+    "id": "4883",
+    "slug": "bulb-series",
+    "name": "Bulb Series",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "4885",
+    "slug": "flood-series",
+    "name": "Flood Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "4887",
+    "slug": "junction-lights",
+    "name": "Junction Lights",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "4889",
+    "slug": "moonlight",
+    "name": "MoonLight",
+    "categoryGroup": "Decorative & Landscape",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "4900",
+    "slug": "economical-flood-series",
+    "name": "Economical Flood Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "4902",
+    "slug": "economic-pc-street-light",
+    "name": "Economic PC Street Light",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "4906",
+    "slug": "spot-light",
+    "name": "Spot Light",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "4937",
+    "slug": "spot-lights",
+    "name": "Spot Lights",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "specs": {
+          "ELECTRICAL DATA": {
+            "Input Voltage": "230 VAC",
+            "Power Factor": " &gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": " 90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "PHOTO NUMERICAL DATA": {
+            "CCT": "Cool : 6000K - 6500K <br /> Warm : 2700K - 3200K",
+            "Rated Flux": " 85LM",
+            "Beam Angle": "40 Degree"
+          },
+          "MECHANICAL DATA": {
+            "Net weight": "14g",
+            "IP Rating": "N/A",
+            "Material": "Die cast Aluminum ",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / Pink"
+          }
+        },
+        "category": "Spot Lights",
+        "modelCode": "ATM1",
+        "shapes": "Round &amp; Square",
+        "warranty": "1 Year",
+        "mrp": "₹180",
+        "wattage": "1W"
+      },
+      {
+        "specs": {
+          "ELECTRICAL DATA": {
+            "Input Voltage": "230 VAC",
+            "Power Factor": " &gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": " 90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "PHOTO NUMERICAL DATA": {
+            "CCT": "Cool : 6000K - 6500K <br /> Warm : 2700K - 3200K",
+            "Rated Flux": "85LM",
+            "Beam Angle": "40 Degree"
+          },
+          "MECHANICAL DATA": {
+            "Net weight": "12g",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / Pink"
+          }
+        },
+        "category": "Spot Lights",
+        "modelCode": "ATM2",
+        "shapes": "Round ",
+        "warranty": "1 Year",
+        "mrp": "₹200",
+        "wattage": "2W"
+      }
+    ]
+  },
+  {
+    "id": "4949",
+    "slug": "junction-lights-2",
+    "name": "Junction Lights",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Junction-Lights_Mikron-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Junction-Lights_Mikron-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Junction Lights",
+            "<span>Model Code</span>": "MIK3",
+            "<span>Shapes</span>": "Round",
+            "<span>Warranty</span>": "1 Year",
+            "MRP": "₹175"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "3W",
+            "Input Voltage": "230 VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K <br />Warm : 2700K – 3200K",
+            "Rated Flux": "225LM",
+            "Beam Angle": "120 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Cut Dia": "58mm",
+            "Fixing Type": "Spring Clip",
+            "Net weight": "43g",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "Available Colors (Single)": "Cool / Warm / Red / Green / Blue / Pink / Amber",
+            "<span>Available Colors (Hatrick) </span>": "N/A"
+          }
+        },
+        "category": "Junction Lights",
+        "modelCode": "MIK3",
+        "shapes": "Round",
+        "warranty": "1 Year",
+        "mrp": "₹175",
+        "wattage": "3W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Junction Lights",
+            "<span>Model Code</span>": "NUC3",
+            "<span>Shapes</span>": "Round &amp; Square",
+            "<span>Warranty</span>": "1 Year",
+            "MRP": "₹180 &amp; ₹250 (For Hatrick)"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "3W",
+            "Input Voltage": "230 VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K <br />Warm : 2700K – 3200K",
+            "Rated Flux": "225LM",
+            "Beam Angle": "120 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Cut Dia": "43mm",
+            "Fixing Type": "Punch Clip &amp; Screw",
+            "Net weight": "31g",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "Available Colors (Single)": "Cool / Warm / Red / Green / Blue / Pink / Amber",
+            "<span>Available Colors (Hatrick) </span>": "CNW - Cool + Neutral + Warm<br />RBP - Red + Blue + Pink"
+          }
+        },
+        "category": "Junction Lights",
+        "modelCode": "NUC3",
+        "shapes": "Round &amp; Square",
+        "warranty": "1 Year",
+        "mrp": "₹180 &amp; ₹250 (For Hatrick)",
+        "wattage": "3W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Junction Lights",
+            "<span>Model Code</span>": "VEG3",
+            "<span>Shapes</span>": "Round",
+            "<span>Warranty</span>": "1 Year",
+            "MRP": "₹180 &amp; ₹250 (For Hatrick)"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "3W",
+            "Input Voltage": "230 VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K <br />Warm : 2700K – 3200K",
+            "Rated Flux": "225LM",
+            "Beam Angle": "120 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Cut Dia": "50mm",
+            "Fixing Type": "Punch Clip",
+            "Net weight": "28g",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "Available Colors (Single)": "Cool / Warm / Red / Green / Blue / Pink / Amber",
+            "<span>Available Colors (Hatrick) </span>": "CNW - Cool + Neutral + Warm<br />RBP - Red + Blue + Pink"
+          }
+        },
+        "category": "Junction Lights",
+        "modelCode": "VEG3",
+        "shapes": "Round",
+        "warranty": "1 Year",
+        "mrp": "₹180 &amp; ₹250 (For Hatrick)",
+        "wattage": "3W"
+      }
+    ]
+  },
+  {
+    "id": "5070",
+    "slug": "mini-surface-lights",
+    "name": "Mini Surface Lights",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Mini-Surface-Lights_Nano-Z_new-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Mini-Surface-Lights_Nano-Z_new-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Mini Surface Lights",
+            "<span>Model Code</span>": "NAN3",
+            "<span>Shapes</span>": "Round",
+            "<span>Warranty</span>": "1 Year",
+            "<span>MRP</span>": "₹185 &amp; ₹260 (For Hatrick)"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "3W",
+            "Input Voltage": "230 VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K<br>Warm : 2700K – 3200K",
+            "Rated Flux": "225LM",
+            "Beam Angle": "60 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "38g",
+            "IP Rating": "N/A",
+            "Material": "Die cast Aluminum",
+            "<span>Available Colors (Single)</span>": "Cool / Warm / Red / Green / Blue / Pink / Amber",
+            "<span>Available Colors (Hatrick) </span>": "CNW – Cool + Neutral + Warm<br />RBP – Red + Blue + Pink"
+          }
+        },
+        "category": "Mini Surface Lights",
+        "modelCode": "NAN3",
+        "shapes": "Round",
+        "warranty": "1 Year",
+        "mrp": "₹185 &amp; ₹260 (For Hatrick)",
+        "wattage": "3W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Mini Surface Lights",
+            "<span>Model Code</span>": "NNAN3",
+            "<span>Shapes</span>": "Round",
+            "<span>Warranty</span>": "1 Year",
+            "<span>MRP</span>": "₹185 &amp; ₹260 (For Hatrick)"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "3W",
+            "Input Voltage": "230 VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K<br>Warm : 2700K – 3200K",
+            "Rated Flux": "225LM",
+            "Beam Angle": "60 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "26g",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "<span>Available Colors (Single)</span>": "Cool / Warm / Red / Green / Blue / Pink / Amber",
+            "<span>Available Colors (Hatrick) </span>": "CNW – Cool + Neutral + Warm<br />RBP – Red + Blue + Pink"
+          }
+        },
+        "category": "Mini Surface Lights",
+        "modelCode": "NNAN3",
+        "shapes": "Round",
+        "warranty": "1 Year",
+        "mrp": "₹185 &amp; ₹260 (For Hatrick)",
+        "wattage": "3W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Mini Surface Lights",
+            "<span>Model Code</span>": "NAN6P",
+            "<span>Shapes</span>": "Round",
+            "<span>Warranty</span>": "1 Year",
+            "<span>MRP</span>": "₹320"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "6W",
+            "Input Voltage": "230VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K<br>Warm : 2700K – 3200K",
+            "Rated Flux": "225LM",
+            "Beam Angle": "60 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "131g",
+            "IP Rating": "N/A",
+            "Material": "Die cast Aluminum",
+            "<span>Available Colors (Single)</span>": "Cool / Warm / Red / Green / Blue / Pink / Amber",
+            "<span>Available Colors (Hatrick) </span>": "N/A"
+          }
+        },
+        "category": "Mini Surface Lights",
+        "modelCode": "NAN6P",
+        "shapes": "Round",
+        "warranty": "1 Year",
+        "mrp": "₹320",
+        "wattage": "6W"
+      }
+    ]
+  },
+  {
+    "id": "5073",
+    "slug": "bulkheads-lights",
+    "name": "Bulkheads Lights",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Led-Bulkheads_Minion_10W-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Led-Bulkheads_Minion_10W-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Bulkheads",
+            "<span>Model Code</span>": "MINI10",
+            "Warranty": "1 Year",
+            "MRP": "₹290"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "10W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K<br />Warm : 2700K – 3200K",
+            "Rated Flux": "1000LM",
+            "Beam Angle": "180 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "108g",
+            "IP Rating": "IP65",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Warm"
+          }
+        },
+        "category": "Bulkheads",
+        "modelCode": "MINI10",
+        "warranty": "1 Year",
+        "mrp": "₹290",
+        "wattage": "10W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Bulkheads",
+            "<span>Model Code</span>": "MINI18",
+            "Warranty": "1 Year",
+            "MRP": "₹480"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "18W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K<br />Warm : 2700K – 3200K",
+            "Rated Flux": "1800LM",
+            "Beam Angle": "180 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "138g",
+            "IP Rating": "IP65",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Warm"
+          }
+        },
+        "category": "Bulkheads",
+        "modelCode": "MINI18",
+        "warranty": "1 Year",
+        "mrp": "₹480",
+        "wattage": "18W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Bulkheads",
+            "<span>Model Code</span>": "NEX10V2",
+            "Warranty": "2 Year",
+            "MRP": "₹700"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "10W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 6000K – 6500K<br />Warm : 2700K – 3200K",
+            "Rated Flux": "1000LM",
+            "Beam Angle": "120 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "205g",
+            "IP Rating": "IP65",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Warm"
+          }
+        },
+        "category": "Bulkheads",
+        "modelCode": "NEX10V2",
+        "warranty": "2 Year",
+        "mrp": "₹700",
+        "wattage": "10W"
+      }
+    ]
+  },
+  {
+    "id": "5075",
+    "slug": "surface-panel-lights",
+    "name": "Surface Panel Lights",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/neo-6w-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/neo-6w-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Surface Panel Lights",
+            "<span>Model Code</span>": "NE6",
+            "Shapes": "Round &amp; Square",
+            "<span>Warranty</span>": "1 Year",
+            "<span>MRP</span>": "₹425"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "6W",
+            "Input Voltage": "180-230VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 4600K – 6500K<br>Neutral : 3600K – 4500K <br>Warm : 2700K – 3500K",
+            "Rated Flux": "540LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "85g",
+            "Dimension (B X H)": "89mm X 30mm",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Neutral / Warm"
+          }
+        },
+        "category": "Surface Panel Lights",
+        "modelCode": "NE6",
+        "shapes": "Round &amp; Square",
+        "warranty": "1 Year",
+        "mrp": "₹425",
+        "wattage": "6W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Surface Panel Lights",
+            "<span>Model Code</span>": "NE12",
+            "Shapes": "Round &amp; Square",
+            "<span>Warranty</span>": "1 Year",
+            "<span>MRP</span>": "₹675"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "12W",
+            "Input Voltage": "180-230VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 4600K – 6500K<br />Neutral : 3600K – 4500K <br />Warm : 2700K – 3500K",
+            "Rated Flux": "1080LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "125g",
+            "Dimension (B X H)": "115mm X 30mm",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Neutral / Warm"
+          }
+        },
+        "category": "Surface Panel Lights",
+        "modelCode": "NE12",
+        "shapes": "Round &amp; Square",
+        "warranty": "1 Year",
+        "mrp": "₹675",
+        "wattage": "12W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Surface Panel Lights",
+            "<span>Model Code</span>": "NE18",
+            "Shapes": "Round &amp; Square",
+            "<span>Warranty</span>": "1 Year",
+            "<span>MRP</span>": "₹925"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "18W",
+            "Input Voltage": "180-230VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "N/A",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "Cool : 4600K – 6500K<br />Neutral : 3600K – 4500K <br />Warm : 2700K – 3500K",
+            "Rated Flux": "1620LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "205g",
+            "Dimension (B X H)": "153mm X 30mm",
+            "IP Rating": "N/A",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Neutral / Warm"
+          }
+        },
+        "category": "Surface Panel Lights",
+        "modelCode": "NE18",
+        "shapes": "Round &amp; Square",
+        "warranty": "1 Year",
+        "mrp": "₹925",
+        "wattage": "18W"
+      }
+    ]
+  },
+  {
+    "id": "5079",
+    "slug": "strip-lights",
+    "name": "Strip Lights",
+    "categoryGroup": "Decorative & Landscape",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Led-Strip-Lights_Linea_60-1024x1024.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Led-Strip-Lights_Linea_60-1024x1024.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Strip Light",
+            "<span>Model Code</span>": "LN060",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹599"
+          },
+          "<b>ELECTRICAL DATA<b>": {
+            "Voltage": "DC12V",
+            "Input Voltage": "90-280VAC",
+            "LED Type": "4040",
+            "LED Per Meter": "60",
+            "Length": "5 Meter",
+            "Power Factor": "&gt;0.90",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br /> 6000K - 6500K",
+            "Beam Angle": "120 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "47g",
+            "IP Rating": "N/A",
+            "Available Colors": "Cool / Neutral / Warm / Green / Blue /<br /> Pink / Amber / Ice Blue / Gold"
+          }
+        },
+        "category": "Strip Light",
+        "modelCode": "LN060",
+        "warranty": "2 Year",
+        "mrp": "₹599"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Strip Light",
+            "<span>Model Code</span>": "LN240",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹1500"
+          },
+          "<b>ELECTRICAL DATA<b>": {
+            "Voltage": "DC12V",
+            "Input Voltage": "90-280VAC",
+            "LED Type": "2835",
+            "LED Per Meter": "240",
+            "Length": "5 Meter",
+            "Power Factor": "&gt;0.90",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br /> 6000K - 6500K",
+            "Beam Angle": "120 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "47g",
+            "IP Rating": "N/A",
+            "Available Colors": "Cool / Neutral / Warm"
+          }
+        },
+        "category": "Strip Light",
+        "modelCode": "LN240",
+        "warranty": "2 Year",
+        "mrp": "₹1500"
+      }
+    ]
+  },
+  {
+    "id": "5081",
+    "slug": "wall-lights-up-down-lights",
+    "name": "Wall Lights / Up-Down Lights",
+    "categoryGroup": "Decorative & Landscape",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "specs": {
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "7W",
+            "Input Voltage": "180-240VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K 6000K - 6500K",
+            "Rated Flux": "700LM",
+            "Beam Angle": "120 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "330g",
+            "IP Rating": "IP65",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / Pink …………………………………………. Multi Colors"
+          }
+        },
+        "wattage": "7W"
+      }
+    ]
+  },
+  {
+    "id": "5218",
+    "slug": "flood-lights-series",
+    "name": "Flood Lights Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Flood-Lights_Zeus10-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Flood-Lights_Zeus10-scaled-1.jpg"
+    ],
+    "models": []
+  },
+  {
+    "id": "5220",
+    "slug": "flood-lights-hi-lum-series",
+    "name": "Flood Lights Hi-LUM series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Flood-Lights_Hi-Lum_50w-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Flood-Lights_Hi-Lum_50w-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Flood Light",
+            "<span>Model Code</span>": "ZS50",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹2750"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "50W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "6kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K 6000K - 6500K",
+            "Rated Flux": "5000LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "1.2kg",
+            "IP Rating": "IP66",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool / Warm / Green / Blue / Pink"
+          }
+        },
+        "category": "Flood Light",
+        "modelCode": "ZS50",
+        "warranty": "2 Year",
+        "mrp": "₹2750",
+        "wattage": "50W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Flood Light",
+            "<span>Model Code</span>": "ZS100",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹4500"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "100W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "6kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K 6000K - 6500K",
+            "Rated Flux": "10000LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "1.9kg",
+            "IP Rating": "IP66",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / PinkCool / Warm / Green / Blue / Pink"
+          }
+        },
+        "category": "Flood Light",
+        "modelCode": "ZS100",
+        "warranty": "2 Year",
+        "mrp": "₹4500",
+        "wattage": "100W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Flood Light",
+            "<span>Model Code</span>": "ZS200",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹9000"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "200W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "6kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K 6000K - 6500K",
+            "Rated Flux": "20000LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "4.4kg",
+            "IP Rating": "IP66",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / PinkCool / Warm / Green / Blue / Pink"
+          }
+        },
+        "category": "Flood Light",
+        "modelCode": "ZS200",
+        "warranty": "2 Year",
+        "mrp": "₹9000",
+        "wattage": "200W"
+      }
+    ]
+  },
+  {
+    "id": "5223",
+    "slug": "street-light-series",
+    "name": "Street Light Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Street-Light_Genxt_20w-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Street-Light_Genxt_20w-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Street Lights",
+            "<span>Model Code</span>": "GNXT50",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹3625"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "50W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "4kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br /> 6000K - 6500K",
+            "Rated Flux": "5000LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "940g",
+            "IP Rating": "IP65",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool"
+          }
+        },
+        "category": "Street Lights",
+        "modelCode": "GNXT50",
+        "warranty": "2 Year",
+        "mrp": "₹3625",
+        "wattage": "50W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Street Lights",
+            "<span>Model Code</span>": "GNXT100",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹6750"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "100W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "4kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br /> 6000K - 6500K",
+            "Rated Flux": "10000LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "1.5kg",
+            "IP Rating": "IP65",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool"
+          }
+        },
+        "category": "Street Lights",
+        "modelCode": "GNXT100",
+        "warranty": "2 Year",
+        "mrp": "₹6750",
+        "wattage": "100W"
+      }
+    ]
+  },
+  {
+    "id": "5225",
+    "slug": "street-light-automatic-series",
+    "name": "Street Light Automatic Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Automatic-Street-Lights_Dynamic_25w-1024x1024.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/09/Automatic-Street-Lights_Dynamic_25w-1024x1024.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Street Light",
+            "<span>Model Code</span>": "DYN25",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹2400"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "25W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "4kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br /> 6000K - 6500K",
+            "Rated Flux": "2500LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "625g",
+            "IP Rating": "IP65",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool"
+          }
+        },
+        "category": "Street Light",
+        "modelCode": "DYN25",
+        "warranty": "2 Year",
+        "mrp": "₹2400",
+        "wattage": "25W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Street Light",
+            "<span>Model Code</span>": "DYN50",
+            "<span>Warranty</span>": "2 Year",
+            "<span>MRP</span>": "₹4200"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "50W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "4kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br /> 6000K - 6500K",
+            "Rated Flux": "5000LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "1.1kg",
+            "IP Rating": "IP65",
+            "Material": "Aluminum Die Cast",
+            "Available Colors": "Cool"
+          }
+        },
+        "category": "Street Light",
+        "modelCode": "DYN50",
+        "warranty": "2 Year",
+        "mrp": "₹4200",
+        "wattage": "50W"
+      }
+    ]
+  },
+  {
+    "id": "5227",
+    "slug": "street-light-economic-series",
+    "name": "Street Light Economic Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Street-Light_Ekon_24w-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Street-Light_Ekon_24w-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Street Light",
+            "<span>Model Code</span>": "EKO24",
+            "<span>Warranty</span>": "1 Year",
+            "<span>MRP</span>": "₹1300"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "24W",
+            "Input Voltage": "90-280VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "&lt;10%",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "6000K - 6500K",
+            "Rated Flux": "2000LM",
+            "Beam Angle": "170 Degree"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "260g",
+            "IP Rating": "IP65",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool"
+          }
+        },
+        "category": "Street Light",
+        "modelCode": "EKO24",
+        "warranty": "1 Year",
+        "mrp": "₹1300",
+        "wattage": "24W"
+      }
+    ]
+  },
+  {
+    "id": "5983",
+    "slug": "essentials",
+    "name": "Essentials",
+    "categoryGroup": "Essentials",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_Topsy-6-Inch-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_Topsy-6-Inch-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "TP111",
+            "MRP": "₹385",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "6” x 10”"
+          }
+        },
+        "mrp": "₹385"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "TP112",
+            "MRP": "₹485",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "8” x 10”"
+          }
+        },
+        "mrp": "₹485"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "TM104",
+            "MRP": "₹765",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "7” x 14”"
+          }
+        },
+        "mrp": "₹765"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "CR105",
+            "MRP": "₹715",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "9” x 9”"
+          }
+        },
+        "mrp": "₹715"
+      }
+    ]
+  },
+  {
+    "id": "5985",
+    "slug": "classic",
+    "name": "Classic",
+    "categoryGroup": "Essentials",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_Vivo-7-Inch-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_Vivo-7-Inch-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "VV113",
+            "MRP": "₹515",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "7” x 9”"
+          }
+        },
+        "mrp": "₹515"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "VV113R",
+            "MRP": "₹565",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "7” x 13”"
+          }
+        },
+        "mrp": "₹565"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "VV109",
+            "MRP": "₹1095",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "9” x 14”"
+          }
+        },
+        "mrp": "₹1095"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "VV109R",
+            "MRP": "₹1215",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "9” x 20”"
+          }
+        },
+        "mrp": "₹1215"
+      }
+    ]
+  },
+  {
+    "id": "6735",
+    "slug": "street-light-series-2",
+    "name": "Street Light Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Street-Light_Genxt_50w-1024x1024.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Street-Light_Genxt_50w-1024x1024.jpg"
+    ],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "6740",
+    "slug": "flood-lights-series-2",
+    "name": "Flood Lights Series",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Flood-Lights_ECO50-1024x1024.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Flood-Lights_ECO50-1024x1024.jpg"
+    ],
+    "models": [
+      {
+        "wattage": "Various Options",
+        "warranty": "1-2 Years",
+        "specs": {}
+      }
+    ]
+  },
+  {
+    "id": "6746",
+    "slug": "essentials-2",
+    "name": "Essentials",
+    "categoryGroup": "Essentials",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_Crystal-Neo-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_Crystal-Neo-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "CR106",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "9” x 9”"
+          }
+        }
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "DZ108",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "9” x 10”"
+          }
+        }
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "DZ108R",
+            "Material": "Polycarbonate",
+            "Dimension (B x H)": "9” x 14”"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "6756",
+    "slug": "classic-2",
+    "name": "Classic",
+    "categoryGroup": "Essentials",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Gate-Lights_Flora-7-Inch-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Gate-Lights_Flora-7-Inch-scaled-1.jpg"
+    ],
+    "models": []
+  },
+  {
+    "id": "6763",
+    "slug": "classic-3",
+    "name": "Classic",
+    "categoryGroup": "Essentials",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Gate-Lights_Arrow-8-inch-1024x1024.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Gate-Lights_Arrow-8-inch-1024x1024.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "AR302",
+            "MRP": "₹1105",
+            "Material": "Aluminum",
+            "Dimension (B x H)": "8” x 13”"
+          }
+        },
+        "mrp": "₹1105"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "GLA315",
+            "MRP": "₹450",
+            "Material": "Acrylic",
+            "Dimension (B x H)": "6” x 7”"
+          }
+        },
+        "mrp": "₹450"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "GLA316",
+            "MRP": "₹575",
+            "Material": "Acrylic",
+            "Dimension (B x H)": "8” x 9”"
+          }
+        },
+        "mrp": "₹575"
+      }
+    ]
+  },
+  {
+    "id": "7535",
+    "slug": "economic-wall-lights",
+    "name": "Economic Wall Lights",
+    "categoryGroup": "Decorative & Landscape",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Wall Lights / Up-Down Lights",
+            "<span>Model Code</span>": "EKL4",
+            "<span>Warranty</span>": "1 Year"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "4W",
+            "Input Voltage": "180-240VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br> 6000K - 6500K",
+            "Rated Flux": "400LM",
+            "Beam Angle": "N/A"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "110g",
+            "IP Rating": "IP66",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / Pink / Multi Colors"
+          }
+        },
+        "category": "Wall Lights / Up-Down Lights",
+        "modelCode": "EKL4",
+        "warranty": "1 Year",
+        "wattage": "4W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Wall Lights / Up-Down Lights",
+            "<span>Model Code</span>": "EKL8",
+            "<span>Warranty</span>": "1 Year"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "8W",
+            "Input Voltage": "180-240VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br> 6000K - 6500K",
+            "Rated Flux": "800LM",
+            "Beam Angle": "N/A"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "205g",
+            "IP Rating": "IP66",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / Pink / Multi Colors"
+          }
+        },
+        "category": "Wall Lights / Up-Down Lights",
+        "modelCode": "EKL8",
+        "warranty": "1 Year",
+        "wattage": "8W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Wall Lights / Up-Down Lights",
+            "<span>Model Code</span>": "ECP3",
+            "<span>Warranty</span>": "1 Year"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "3W",
+            "Input Voltage": "180-240VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br> 6000K - 6500K",
+            "Rated Flux": "300LM",
+            "Beam Angle": "N/A"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "140g",
+            "IP Rating": "IP66",
+            "Material": "Polycarbonate",
+            "Available Colors": "Cool / Warm / Red / Green / Blue / Pink / Multi Colors"
+          }
+        },
+        "category": "Wall Lights / Up-Down Lights",
+        "modelCode": "ECP3",
+        "warranty": "1 Year",
+        "wattage": "3W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "Wall Lights / Up-Down Lights",
+            "<span>Model Code</span>": "ECP6",
+            "<span>Warranty</span>": "1 Year"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "Rated Wattage": "6W",
+            "Input Voltage": "180-240VAC",
+            "Power Factor": "&gt;0.90",
+            "Total Harmonic Distortion (THD)": "N/A",
+            "Surge Protection": "2.5kv",
+            "Efficiency (%)": "90%",
+            "Color Rendering Index (CRI)": "&gt;80"
+          },
+          "<strong>PHOTO NUMERICAL DATA</strong>": {
+            "CCT": "2700K - 3200K <br> 6000K - 6500K",
+            "Rated Flux": "600LM",
+            "Beam Angle": "N/A"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "Net weight": "140g",
+            "IP Rating": "IP66",
+            "Material": "Polycarbonate",
+            "Available Colors": ""
+          }
+        },
+        "category": "Wall Lights / Up-Down Lights",
+        "modelCode": "ECP6",
+        "warranty": "1 Year",
+        "wattage": "6W"
+      }
+    ]
+  },
+  {
+    "id": "7677",
+    "slug": "bulkheads-fixtures",
+    "name": "Bulkheads",
+    "categoryGroup": "Outdoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Bulkheads_Fin-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Bulkheads_Fin-scaled-1.jpg"
+    ],
+    "models": []
+  },
+  {
+    "id": "5987",
+    "slug": "pro-series",
+    "name": "Pro Series",
+    "categoryGroup": "Essentials",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_NewB-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Gate-Lights_NewB-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "NB306",
+            "MRP": "₹1550",
+            "Material": "Stainless Steel",
+            "Dimension (B x H)": "8” x 8”"
+          }
+        },
+        "mrp": "₹1550"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "CL311",
+            "MRP": "₹1700",
+            "Material": "Stainless Steel",
+            "Dimension (B x H)": "7” x 10”"
+          }
+        },
+        "mrp": "₹1700"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "QD317",
+            "MRP": "₹1400",
+            "Material": "Aluminum",
+            "Dimension (B x H)": "3” x 7”"
+          }
+        },
+        "mrp": "₹1400"
+      }
+    ]
+  },
+  {
+    "id": "6244",
+    "slug": "fixing-mounts",
+    "name": "Fixing Mounts",
+    "categoryGroup": "Essentials",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Fixing-Mounts_Gate-Light-Surface-Mount-scaled-1.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/10/Fixing-Mounts_Gate-Light-Surface-Mount-scaled-1.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "GLSM",
+            "MRP": "₹76",
+            "Material": "Polycarbonate",
+            "Cut Dia": "1.75\""
+          }
+        },
+        "mrp": "₹76"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Code": "SLM",
+            "MRP": "₹350",
+            "Material": "Polycarbonate",
+            "Cut Dia": "1.5\""
+          }
+        },
+        "mrp": "₹350"
+      }
+    ]
+  },
+  {
+    "id": "7386",
+    "slug": "accessories",
+    "name": "Accessories",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Led-DrivePanel-Lights_1-3W-1-1024x1024.jpg",
+    "gallery": [
+      "https://aimyindia.meoun.com/wp-content/uploads/2022/11/Led-DrivePanel-Lights_1-3W-1-1024x1024.jpg"
+    ],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "LED Driver",
+            "<span>Model Code</span>": "DR1-3",
+            "<span>MRP</span>": "₹110"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "<span>Rated Wattage</span>": "1-3W",
+            "<span>Input Voltage</span>": "AC230V/50Hz",
+            "Output Voltage": "DC 3-9V/300mA"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "<span>Net weight</span>": "5g",
+            "<span>Material</span>": "Polycarbonate"
+          }
+        },
+        "category": "LED Driver",
+        "modelCode": "DR1-3",
+        "mrp": "₹110",
+        "wattage": "1-3W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "LED Driver",
+            "<span>Model Code</span>": "DR4-7",
+            "<span>MRP</span>": "₹165"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "<span>Rated Wattage</span>": "4-7W",
+            "<span>Input Voltage</span>": "AC230V/50Hz",
+            "Output Voltage": "DC 12-21V/300mA"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "<span>Net weight</span>": "25g",
+            "<span>Material</span>": "Polycarbonate"
+          }
+        },
+        "category": "LED Driver",
+        "modelCode": "DR4-7",
+        "mrp": "₹165",
+        "wattage": "4-7W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "<span>Category</span>": "LED Driver",
+            "<span>Model Code</span>": "DR8-24",
+            "<span>MRP</span>": "₹200"
+          },
+          "<strong>ELECTRICAL DATA</strong>": {
+            "<span>Rated Wattage</span>": "8-24W",
+            "<span>Input Voltage</span>": "AC230V/50Hz",
+            "Output Voltage": "DC 26-80V/300mA"
+          },
+          "<strong>MECHANICAL DATA</strong>": {
+            "<span>Net weight</span>": "25g",
+            "<span>Material</span>": "Polycarbonate"
+          }
+        },
+        "category": "LED Driver",
+        "modelCode": "DR8-24",
+        "mrp": "₹200",
+        "wattage": "8-24W"
+      }
+    ]
+  },
+  {
+    "id": "7689",
+    "slug": "surface-light-panels",
+    "name": "Surface Light Panels",
+    "categoryGroup": "Indoor Lighting",
+    "image_url": "",
+    "gallery": [],
+    "models": []
+  },
+  {
+    "id": "5828",
+    "slug": "mirvue",
+    "name": "Mirvue Smart Touchmirror",
+    "categoryGroup": "Decorative & Landscape",
+    "image_url": "",
+    "gallery": [],
+    "models": [
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "24` x 24`",
+            "Color Temperature": "Warm White (3000k - 3500k)",
+            "Wattage": "36 W",
+            "Operation": "Touch Switch (Feather Touch)",
+            "Features": "Touch Switch, Flicker Free Light, Step Dimming, Rust &amp; Fire Free",
+            "Material": "Superfine Crystal Clear, Reflective Mirror PVC Based Body, Microsprocessor10850 Based Touch Switch",
+            "Mount": "Wall Mount",
+            "Application": "Bathtoom and Living Room"
+          }
+        },
+        "wattage": "36 W"
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      },
+      {
+        "specs": {
+          "<strong>MODEL DATA</strong>": {
+            "Size": "",
+            "Color Temperature": "",
+            "Wattage": "",
+            "Operation": "",
+            "Features": "",
+            "Material": "",
+            "Mount": "",
+            "Application": ""
+          }
+        },
+        "wattage": ""
+      }
+    ]
+  }
+]
