@@ -1,0 +1,22 @@
+{
+  "management": {
+    "title": "Management",
+    "content": "<p>Detailed content for this section will be updated by the site administrator.</p>"
+  },
+  "support": {
+    "title": "Support",
+    "content": "<p>Detailed content for this section will be updated by the site administrator.</p>"
+  },
+  "certificates": {
+    "title": "Certificates",
+    "content": "<p>Detailed content for this section will be updated by the site administrator.</p>"
+  },
+  "business-with-us": {
+    "title": "Business With Us",
+    "content": "<p>Detailed content for this section will be updated by the site administrator.</p>"
+  },
+  "warranty-policy": {
+    "title": "Warranty Policy",
+    "content": "<p>Detailed content for this section will be updated by the site administrator.</p>"
+  }
+}

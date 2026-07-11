@@ -34,6 +34,9 @@ export default async function AdminLayout({ children }) {
           <Link href="/admin/careers" style={{ padding: '12px 15px', color: '#ccc', textDecoration: 'none', borderRadius: '8px', transition: 'background 0.2s' }}>
             💼 Careers & Jobs
           </Link>
+          <Link href="/admin/pages" style={{ padding: '12px 15px', color: '#ccc', textDecoration: 'none', borderRadius: '8px', transition: 'background 0.2s' }}>
+            📝 Static Pages
+          </Link>
         </nav>
         
         <div style={{ padding: '20px 30px', borderTop: '1px solid #222' }}>

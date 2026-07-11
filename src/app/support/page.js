@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import pagesData from '@/data/pages.json';
 
 export const metadata = {
   title: 'Customer Support | Aimy India',
@@ -7,6 +8,8 @@ export const metadata = {
 };
 
 export default function Page() {
+  const pageContent = pagesData['support']?.content || '<p>Detailed content for this section will be updated by the site administrator.</p>';
+
   return (
     <>
       <Header />
@@ -24,9 +27,10 @@ export default function Page() {
         <section className="section">
           <div className="container text-content">
             <p style={{fontSize: '1.1rem', color: '#666', lineHeight: 1.8}}>We are here to help you with your lighting products.</p>
-            <div style={{padding: '3rem', background: '#f9f9f9', borderRadius: '10px', textAlign: 'center', marginTop: '2rem', color: '#888'}}>
-              Detailed content for this section will be updated by the site administrator.
-            </div>
+            <div 
+              style={{ marginTop: '2rem', color: '#444' }}
+              dangerouslySetInnerHTML={{ __html: pageContent }}
+            />
           </div>
         </section>
       </main>

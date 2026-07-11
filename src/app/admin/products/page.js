@@ -192,6 +192,73 @@ export default function ProductsManager() {
                   )}
                 </div>
 
+                {/* Models & Specifications */}
+                <div style={{ marginTop: '10px', padding: '15px', background: '#0a0a0a', border: '1px solid #333', borderRadius: '8px' }}>
+                  <h4 style={{ margin: '0 0 15px 0' }}>Models & Specifications</h4>
+                  {(editForm.models || []).map((model, mIndex) => (
+                    <div key={mIndex} style={{ marginBottom: '15px', padding: '15px', background: '#111', border: '1px solid #222', borderRadius: '5px' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+                        <strong style={{ fontSize: '0.9rem' }}>Model Variant {mIndex + 1}</strong>
+                        <button onClick={() => {
+                          const newModels = [...editForm.models];
+                          newModels.splice(mIndex, 1);
+                          setEditForm({...editForm, models: newModels});
+                        }} style={{ color: '#E31E24', background: 'none', border: 'none', cursor: 'pointer', fontSize: '0.8rem' }}>Remove</button>
+                      </div>
+                      
+                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px', marginBottom: '10px' }}>
+                        <div>
+                          <label style={{ fontSize: '0.7rem', color: '#888' }}>Model Code</label>
+                          <input placeholder="e.g. Z-101" value={model.modelCode || ''} onChange={e => {
+                            const newModels = [...editForm.models];
+                            newModels[mIndex].modelCode = e.target.value;
+                            setEditForm({...editForm, models: newModels});
+                          }} style={{ width: '100%', padding: '8px', background: '#050505', color: '#fff', border: '1px solid #333', borderRadius: '4px' }} />
+                        </div>
+                        <div>
+                          <label style={{ fontSize: '0.7rem', color: '#888' }}>Wattage</label>
+                          <input placeholder="e.g. 10W" value={model.wattage || ''} onChange={e => {
+                            const newModels = [...editForm.models];
+                            newModels[mIndex].wattage = e.target.value;
+                            setEditForm({...editForm, models: newModels});
+                          }} style={{ width: '100%', padding: '8px', background: '#050505', color: '#fff', border: '1px solid #333', borderRadius: '4px' }} />
+                        </div>
+                        <div>
+                          <label style={{ fontSize: '0.7rem', color: '#888' }}>Warranty</label>
+                          <input placeholder="e.g. 2 Years" value={model.warranty || ''} onChange={e => {
+                            const newModels = [...editForm.models];
+                            newModels[mIndex].warranty = e.target.value;
+                            setEditForm({...editForm, models: newModels});
+                          }} style={{ width: '100%', padding: '8px', background: '#050505', color: '#fff', border: '1px solid #333', borderRadius: '4px' }} />
+                        </div>
+                      </div>
+
+                      <div>
+                        <label style={{ fontSize: '0.7rem', color: '#888' }}>Technical Specifications (JSON format)</label>
+                        <textarea 
+                          placeholder='{"Electrical Data": {"Voltage": "220V", "PF": ">0.9"}}'
+                          defaultValue={JSON.stringify(model.specs || {}, null, 2)}
+                          onBlur={e => {
+                            try {
+                              const parsed = JSON.parse(e.target.value);
+                              const newModels = [...editForm.models];
+                              newModels[mIndex].specs = parsed;
+                              setEditForm({...editForm, models: newModels});
+                            } catch (err) {
+                              alert('Invalid JSON format in Specs. Please fix it before saving.');
+                            }
+                          }}
+                          style={{ width: '100%', height: '120px', padding: '8px', background: '#050505', color: '#fff', border: '1px solid #333', borderRadius: '4px', fontFamily: 'monospace', fontSize: '0.8rem' }}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                  <button onClick={() => {
+                    const newModels = [...(editForm.models || []), { modelCode: '', wattage: '', warranty: '', specs: {} }];
+                    setEditForm({...editForm, models: newModels});
+                  }} style={{ padding: '6px 15px', background: '#222', color: '#fff', border: '1px solid #444', borderRadius: '5px', cursor: 'pointer', fontSize: '0.8rem' }}>+ Add Model</button>
+                </div>
+
                 <div style={{ display: 'flex', gap: '10px', marginTop: '10px' }}>
                   <button onClick={handleSave} disabled={saving} style={{ padding: '8px 20px', background: '#E31E24', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
                     {saving ? 'Saving...' : 'Save Changes'}
