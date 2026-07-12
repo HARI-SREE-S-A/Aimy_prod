@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { getCollectionData } from '@/lib/data';
+export const dynamic = 'force-dynamic';
 export const metadata = {
   title: 'Certificates | Aimy India',
   description: 'Our quality and safety certifications.',

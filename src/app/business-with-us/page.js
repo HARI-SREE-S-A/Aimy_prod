@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { getCollectionData } from '@/lib/data';
+export const dynamic = 'force-dynamic';
 export const metadata = {
   title: 'Business With Us | Aimy India',
   description: 'Partner with Aimy India for your projects and retail needs.',

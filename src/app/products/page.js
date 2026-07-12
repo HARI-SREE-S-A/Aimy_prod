@@ -43,6 +43,7 @@ function getProductImage(slug) {
   return `/images/products/${slug}.jpg`;
 }
 
+export const dynamic = 'force-dynamic';
 export const metadata = {
   title: 'Our Products | Aimy India',
   description: 'Explore our complete range of premium indoor, outdoor, and decorative LED lighting solutions.',

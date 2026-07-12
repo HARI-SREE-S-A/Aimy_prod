@@ -6,6 +6,8 @@ import { supabase } from '@/lib/supabase';
 import ScrollReveal from '@/components/ScrollReveal';
 import { getCollectionData } from '@/lib/data';
 
+export const dynamic = 'force-dynamic';
+
 // Helper to fetch banners (if Supabase is configured)
 async function getBanners() {
   try {

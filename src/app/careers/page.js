@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { getCollectionData } from '@/lib/data';
+export const dynamic = 'force-dynamic';
 export const metadata = {
   title: 'Careers | Aimy India',
   description: 'Join the Aimy India team and help us build the future of LED lighting solutions.',
