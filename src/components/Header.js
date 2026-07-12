@@ -48,7 +48,11 @@ export default function Header({ siteSettings = {} }) {
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="header-inner">
           <Link href="/" className="header-logo">
-            <img src={siteSettings?.headerLogo || "/images/brand/logo.png"} alt="Aimy India" />
+            <img 
+              src={siteSettings?.headerLogo || "/images/brand/logo.png"} 
+              alt="Aimy India" 
+              onError={(e) => { e.target.src = '/images/brand/logo.png'; }}
+            />
           </Link>
 
           <nav className="nav">
